@@ -1,10 +1,22 @@
 
-- [[#Foreword|Foreword]]
+- [[#Abstract|Abstract]]
+	- [[#Abstract#**Q1: What is Fast-LIVO2?**|**Q1: What is Fast-LIVO2?**]]
+	- [[#Abstract#**Q2: What does FAST-LIVO2 solve?**|**Q2: What does FAST-LIVO2 solve?**]]
+	- [[#Abstract#**Q3: What does FAST-LIVO2 do?**|**Q3: What does FAST-LIVO2 do?**]]
+	- [[#Abstract#Q4: What has FAST-LIVO2 demonstrated?|Q4: What has FAST-LIVO2 demonstrated?]]
+- [[#Introduction|Introduction]]
+	- [[#Introduction#1. The Significance of SLAM:|1. The Significance of SLAM:]]
+	- [[#Introduction#2. Issues in SLAM (Motivation for FAST-LIVO2):|2. Issues in SLAM (Motivation for FAST-LIVO2):]]
+	- [[#Introduction#3. The Concept and Significance of FAST-LIVO2:|3. The Concept and Significance of FAST-LIVO2:]]
 - [[#Related Work|Related Work]]
 	- [[#Related Work#1. Overview of Direct Methods|1. Overview of Direct Methods]]
 	- [[#Related Work#2. Introduction to Multi-sensor Fusion SLAM|2. Introduction to Multi-sensor Fusion SLAM]]
 	- [[#Related Work#3. Development Timeline of LIVO|3. Development Timeline of LIVO]]
-- [[#Notation and State Transition Model|Notation and State Transition Model]]
+- [[#System Overview|System Overview]]
+	- [[#System Overview#Sequential-update **ESIKF**|Sequential-update **ESIKF**]]
+		- [[#Sequential-update **ESIKF**#Notation and State Transition Model|Notation and State Transition Model]]
+
+
 
 ## Abstract 
 The author condensed the abstract into the following 4 aspects:
@@ -147,7 +159,7 @@ Local map maintenance: LiDAR-Inertial Odometry (LIO) updates geometric informati
 f readers are already familiar with ESIKF or the FAST-LIO system, this section can be skipped. However, for those unfamiliar, this section provides a step-by-step introduction to ESIKF.
 
 This section introduces the mathematical models for state prediction and update, structured into four subsections:
-
+S
 1. **Notation and State Transition Model**
 2. **Scan Merging**
 3. **Propagation (Forward and Backward Propagation)**
