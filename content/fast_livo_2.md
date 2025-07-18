@@ -225,17 +225,18 @@ The solution: for each point between $t_{k-1}$ and $t_k$, determine the transfor
 $$
 \check{\mathbf{x}}_{j-1} = \check{\mathbf{x}}_j \boxplus (-\Delta t \mathbf{f(\check{x}_j, u_j, 0)})
 $$
-	with the pose at $t_k$ as the initial reference pose. Here, $\Delta t$ is the time interval between LiDAR points.
+- with the pose at $t_k$ as the initial reference pose. Here, $\Delta t$ is the time interval between LiDAR points.
 
 * **Next**, LiDAR points between $t_{k-1}$ and $t_k$ are segmented according to IMU sampling intervals. A LiDAR point with timestamp $\rho_{j-1}$ belongs to some interval $[ \tau_{i-1}, \tau_i )$ defined by two consecutive IMU samples.
 	* Example: A 10 Hz LiDAR (e.g., Livox Avia) generates 24,000 points per frame (100 ms), and a 200 Hz IMU generates 20 measurements in that same interval. Thus, multiple LiDAR points exist between any two IMU samples.
-* * **Then**, compute the transformation matrices at each timestamp relative to timestamp $t_k$:
+* **Then**, compute the transformation matrices at each timestamp relative to timestamp $t_k$:
 	1. Rotation Matrix at timestamp $j$ relative to $t_k$, $^{I_k}\check{R}_{I_j}$
 $$
 {}^{I_k}\mathbf{\hat{R}}_{I_{j-1}} = {}^{I_K}\mathbf{\hat{R}}_{I_j}\cdot \text{Exp}\left((\hat{\mathbf{b}}_{\omega_k} - \mathbf{\omega}_{m_{i-1}})\Delta t\right), \quad {}^{I_k}R_{I_m} = I
 $$
-		Note: Within interval $[\tau_{i-1}, \tau_i)$, the angular velocity is assumed constant, approximated by the IMU angular velocity at $\tau_{i-1}$. The bias is fixed at the prior at $t_k$.
-	2.  Velocity at timestamp $j$ relative to $t_k$ $^{I_k}\check{v}_{I_j}$:
+- Note: Within interval $[\tau_{i-1}, \tau_i)$, the angular velocity is assumed constant, approximated by the IMU angular velocity at $\tau_{i-1}$. The bias is fixed at the prior at $t_k$.
+
+2.  Velocity at timestamp $j$ relative to $t_k$ $^{I_k}\check{v}_{I_j}$:
 $$
 \begin{aligned}
     {}^{I_k}\check{\mathbf{v}}_{I_{j-1}} &= {}^{I_k}\check{\mathbf{v}}_{I_{j}} - {}^{I_k}\check{\mathbf{R}}_{I_j}\left(\mathbf{a}_{m_{i-1}} - \hat{\mathbf{b}}_{a_k}\right)\Delta t - {}^{I_k}\hat{\mathbf{g}}_k\Delta t,\\[8pt]
@@ -243,8 +244,8 @@ $$
 \end{aligned}
 
 $$
-		Acceleration within this interval is assumed constant, equal to the IMU acceleration at $\tau_{i-1}$. Acceleration biases and gravity are assumed fixed at their prior values at $t_k$.
-	3. Translation at timestamp $j$ relative to $t_k$: $^{I_k}\check{p}_{I_j}$
+- Acceleration within this interval is assumed constant, equal to the IMU acceleration at $\tau_{i-1}$. Acceleration biases and gravity are assumed fixed at their prior values at $t_k$.
+3. Translation at timestamp $j$ relative to $t_k$: $^{I_k}\check{p}_{I_j}$
 $$
 \begin{aligned}
 {}^{I_k}\check{\mathbf{p}}_{I_{j-1}}
@@ -254,9 +255,9 @@ $$
 &= \mathbf{0}\,.
 \end{aligned}
 $$		
-		Using computed velocities and accelerations, translation $p_{I_j}^{I_k}$ is calculated accordingly. 
-		
-Finally, transforming each LiDAR point yields the corrected (undistorted) points at timestamp $t_k$:
+- Using computed velocities and accelerations, translation $p_{I_j}^{I_k}$ is calculated accordingly. 
+
+**Finally**, transforming each LiDAR point yields the corrected (undistorted) points at timestamp $t_k$:
 $$
 
 {}^{L_k}\mathbf{p}_{f_j} = \left({}^IT_L\right)^{-1} {}^{I_k}T_{I_j} {}^{L_j}p_{f_j}
