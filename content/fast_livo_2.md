@@ -232,7 +232,7 @@ $$
 * * **Then**, compute the transformation matrices at each timestamp relative to timestamp $t_k$:
 	1. Rotation Matrix at timestamp $j$ relative to $t_k$, $^{I_k}\check{R}_{I_j}$
 $$
-R_{I_{j-1}}^{I_k} = R_{I_j}^{I_k} \cdot \text{Exp}\left((\hat{\omega}_m - b_{\omega_i})\Delta t\right), \quad R_{I_k}^{I_k} = I
+{}^{I_k}\mathbf{\hat{R}}_{I_{j-1}} = {}^{I_K}\mathbf{\hat{R}}_{I_j}\cdot \text{Exp}\left((\hat{\mathbf{b}}_{\omega_k} - \mathbf{\omega}_{m_{i-1}})\Delta t\right), \quad {}^{I_k}R_{I_m} = I
 $$
 		Note: Within interval $[\tau_{i-1}, \tau_i)$, the angular velocity is assumed constant, approximated by the IMU angular velocity at $\tau_{i-1}$. The bias is fixed at the prior at $t_k$.
 	2.  Velocity at timestamp $j$ relative to $t_k$ $^{I_k}\check{v}_{I_j}$:
