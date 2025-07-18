@@ -1,16 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
     <channel>
-      <title>Quartz 4</title>
-      <link>https://quartz.jzhao.xyz</link>
-      <description>Last 10 notes on Quartz 4</description>
+      <title>Learning SLAM</title>
+      <link>https://learnslam.info</link>
+      <description>Last 10 notes on Learning SLAM</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Welcome to Quartz</title>
-    <link>https://quartz.jzhao.xyz/</link>
-    <guid>https://quartz.jzhao.xyz/</guid>
-    <description><![CDATA[ This is a blank Quartz installation. See the documentation for how to get started. ]]></description>
-    <pubDate>Fri, 18 Jul 2025 15:07:32 GMT</pubDate>
+    <title>fast_livo_2</title>
+    <link>https://learnslam.info/fast_livo_2</link>
+    <guid>https://learnslam.info/fast_livo_2</guid>
+    <description><![CDATA[ Abstract The author condensed the abstract into the following 4 aspects: Q1: What is Fast-LIVO2? FAST-LIVO2 is a real-time, accurate, and robust tightly coupled multi-sensor SLAM system. ]]></description>
+    <pubDate>Fri, 18 Jul 2025 16:01:36 GMT</pubDate>
+  </item><item>
+    <title>learnslam.info</title>
+    <link>https://learnslam.info/</link>
+    <guid>https://learnslam.info/</guid>
+    <description><![CDATA[ The goal of this website is to allow a reader with minimal math and cs background to fully* learn how state of the art SLAM systems work, primarily focusing on FAST-LIVO2. ]]></description>
+    <pubDate>Fri, 18 Jul 2025 15:43:23 GMT</pubDate>
   </item>
     </channel>
   </rss>
