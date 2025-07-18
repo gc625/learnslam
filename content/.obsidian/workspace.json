@@ -13,12 +13,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "fast_livo_2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "fast_livo_2"
+            }
+          },
+          {
+            "id": "c36801a8047bc3ed",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -78,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "d4ba50a6cf33d717",
@@ -94,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "fast_livo_2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for index"
+              "title": "Backlinks for fast_livo_2"
             }
           },
           {
@@ -113,12 +124,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "fast_livo_2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from index"
+              "title": "Outgoing links from fast_livo_2"
             }
           },
           {
@@ -142,13 +153,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md",
+                "file": "fast_livo_2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline of fast_livo_2"
             }
           }
         ]
@@ -170,9 +181,10 @@
   },
   "active": "2090bbbabd9fe1f5",
   "lastOpenFiles": [
+    "assets/论文解析.pdf",
+    "Fast.md",
     "fast_livo_2.md",
     "index.md",
-    "Fast.md",
     "assets/figures/fig1.png",
     "assets/figures/fig3.png",
     "assets/figures/fig2.png",
