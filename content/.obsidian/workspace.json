@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "fast_livo_2.md",
+                "file": "Learn SLAM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "fast_livo_2"
+              "title": "Learn SLAM"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "fast_livo_2.md",
+                "file": "Learn SLAM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for fast_livo_2"
+              "title": "Backlinks for Learn SLAM"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "fast_livo_2.md",
+                "file": "Learn SLAM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from fast_livo_2"
+              "title": "Outgoing links from Learn SLAM"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "fast_livo_2.md",
+                "file": "Learn SLAM.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of fast_livo_2"
+              "title": "Outline of Learn SLAM"
             }
           }
         ]
@@ -170,9 +170,9 @@
   },
   "active": "2090bbbabd9fe1f5",
   "lastOpenFiles": [
-    "index.md",
-    "Fast.md",
     "fast_livo_2.md",
+    "Learn SLAM.md",
+    "Fast.md",
     "assets/figures/fig1.png",
     "assets/figures/fig3.png",
     "assets/figures/fig2.png",
