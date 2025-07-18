@@ -151,7 +151,11 @@ This section introduces the mathematical models for state prediction and update,
 
 ## Notation and State Transition Model
 First, sensor coordinate frames are defined:
- $$I: \text{IMU frame}$$$$G: \text{Global frame}$$
+ $$
+ I: \text{IMU frame}
+ $$$$
+ G: \text{Global frame}
+ $$
 (Note: Only IMU and global frames are defined here since the entire system state is IMU-centric. Observations from LiDAR and camera are transformed into the IMU frame.)
 Next, the discrete-time state transition equation is given by:
 
