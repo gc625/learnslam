@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fast LIVO2.md",
+                "file": "fast_livo_2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fast LIVO2"
+              "title": "fast_livo_2"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fast LIVO2.md",
+                "file": "fast_livo_2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Fast LIVO2"
+              "title": "Backlinks for fast_livo_2"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fast LIVO2.md",
+                "file": "fast_livo_2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Fast LIVO2"
+              "title": "Outgoing links from fast_livo_2"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fast LIVO2.md",
+                "file": "fast_livo_2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Fast LIVO2"
+              "title": "Outline of fast_livo_2"
             }
           }
         ]
@@ -170,6 +170,9 @@
   },
   "active": "2090bbbabd9fe1f5",
   "lastOpenFiles": [
+    "index.md",
+    "Fast.md",
+    "fast_livo_2.md",
     "assets/figures/fig1.png",
     "assets/figures/fig3.png",
     "assets/figures/fig2.png",
