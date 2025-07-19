@@ -58,6 +58,7 @@ Additionally, FAST-LIVO2 employs on-demand voxel ray-casting (note: detailed exp
 # Related Work
 
 The related work can be summarized into three parts:
+
 **1. Overview of Direct Methods in SLAM**  
 **2. Introduction to LIVO**  
 **3. Development Timeline of LIVO (Note: The timeline is based solely on works mentioned in this paper. Given the author's limitations, some relevant work may inevitably be overlooked.)**
@@ -264,3 +265,4 @@ $$
 
 $$
 
+## Sequential Update
