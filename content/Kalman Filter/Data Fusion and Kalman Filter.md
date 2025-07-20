@@ -108,7 +108,7 @@ $$
 $$
 x_k = A\,x_{k-1} + B\,u_{k-1} + w_{k-1},
 $$
-the term $A\,x_{k-1}$ is your *prediction* of the new state $x_k$ based solely on the old one.
+the term $A\,x_{k-1}$ is your *prediction* of the new state $x_k$ based sData Fusion and Kalman Filterolely on the old one.
 * **Intuition**:
 * If your state is just a 1D position and you assume it doesn’t change by itself, $A=1$.
 * If your state is $\begin{bmatrix} \text{position}\\\text{velocity}\end{bmatrix}$ under a constant‑velocity model, then with timestep $\Delta t$:

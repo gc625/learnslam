@@ -1,0 +1,61 @@
+The related work can be summarized into three parts:
+
+**1. Overview of Direct Methods in SLAM**  
+**2. Introduction to LIVO**  
+**3. Development Timeline of LIVO (Note: The timeline is based solely on works mentioned in this paper. Given the author's limitations, some relevant work may inevitably be overlooked.)**
+## 1. Overview of Direct Methods
+
+A comparative analysis between feature-based and direct methods is presented.
+**Classification of Visual Direct Methods:**
+- **Dense Direct Methods (all pixels):**  
+    Typically applied to RGB-D cameras. Examples include:
+    - _"Real-time dense visual tracking under large lighting variations"_
+    - _"Direct iterative closest point for real-time visual odometry"_
+    - _"Robust odometry estimation for RGB-D cameras"_
+- **Semi-dense Direct Methods (pixels with significant grayscale gradients):**  
+    Examples include:
+    - _"LSD-SLAM: Large-scale direct monocular SLAM"_
+    - _"Semi-dense visual odometry for a monocular camera"_
+- **Sparse Direct Methods (image patches):**  
+    Based on carefully selected image patches. Examples include:
+    - _"Direct sparse odometry"_
+    - _"SVO: Fast semi-direct monocular visual odometry"_
+
+**Direct Methods in LiDAR:**  
+There is no explicit categorization. Typically involves downsampling scans and establishing point-to-plane constraints. Representative works include:
+- _"FAST-LIO2: Fast direct lidar-inertial odometry"_
+- _"Efficient and probabilistic adaptive voxel mapping for accurate online lidar odometry"_
+- _"Direct lidar-inertial odometry: Lightweight LIO with continuous-time motion correction"_
+- _"D-LIOM: Tightly-coupled direct lidar-inertial odometry and mapping"_
+**Direct Methods in FAST-LIVO2:**
+- For the LiDAR module: utilizes methods from _"Efficient and probabilistic adaptive voxel mapping for accurate online lidar odometry"_ (Note: manages voxel maps using hash tables and octrees).
+- For the visual module: adopts _"SVO: Fast semi-direct monocular visual odometry"_ (Note: employs a sparse direct method to compute the Jacobian matrix of photometric error relative to pose perturbations. FAST-LIVO2 differs from SVO in terms of coordinate systems and thus requires an additional processing step—details available in code analysis).
+
+## 2. Introduction to Multi-sensor Fusion SLAM
+
+(Note: This section is highly recommended for quickly grasping relevant LIVO research.)
+
+The authors classify existing LIVO methods into two categories: loosely-coupled and tightly-coupled. The classification is mainly based on two criteria:
+
+- **State Estimation:**  
+    Whether the estimation result from one sensor is included as an optimization target within another sensor's model.
+    
+- **Raw Measurement Integration:**  
+    Whether raw data from different sensors are directly combined.
+    
+
+
+## 3. Development Timeline of LIVO
+
+First, according to the classification standards in Section 2, all existing LIVO methods are categorized as shown below:
+![[fig1.png]]
+**Figure 1:** LIVO Development Timeline 
+
+**Loosely-coupled Methods:** Discussed from the aspects of states and measurements, illustrated as follows:
+![[fig2.png]]
+**Figure 2:** Timeline of Loosely-coupled Methods (not included here, referenced from the original text).
+
+**Tightly-coupled Methods:** The paper discusses these methods from two perspectives: indirect methods and direct methods.
+![[fig3.png]]
+
+Next Section: [System Overview](<System Overview>)
