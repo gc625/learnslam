@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2090bbbabd9fe1f5",
+            "id": "c36801a8047bc3ed",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,16 +19,6 @@
               },
               "icon": "lucide-file",
               "title": "Untitled"
-            }
-          },
-          {
-            "id": "c36801a8047bc3ed",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
             }
           }
         ]
@@ -41,14 +31,10 @@
             "id": "beeabb44cd62c75f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "fast_livo_2.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "fast_livo_2"
+              "title": "New tab"
             }
           }
         ]
@@ -198,33 +184,40 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2090bbbabd9fe1f5",
+  "active": "c36801a8047bc3ed",
   "lastOpenFiles": [
-    "fast_livo_2.md",
+    "index.md",
     "FAST-LIVO2/paper notes/Untitled.md",
+    "paper notes.md",
+    "Data.md",
+    "Kalman Filter/Data Fusion and Kalman Filter.md",
+    "fast_livo_2.md",
+    "FAST-LIVO2/paper notes/System Overview.md",
+    "FAST-LIVO2/paper notes/Related Works.md",
+    "FAST-LIVO2/paper notes/Introduction.md",
+    "Related.md",
+    "FAST-LIVO2/paper notes/Abstract.md",
+    "FAST-LIVO2/paper notes/System Overview",
+    "assets/figures/motiondistortion.png",
+    "FAST-LIVO2/paper notes/assets/fig3.png",
+    "FAST-LIVO2/paper notes/assets/fig2.png",
+    "FAST-LIVO2/paper notes/assets/fig1.png",
+    "FAST-LIVO2/paper notes/assets",
     "FAST-LIVO2/paper notes",
-    "kalman filter/Data Fusion and Kalman Filter.md",
     "FAST-LIVO2",
     "Untitled.md",
-    "kalman filter/assets/2b.png",
+    "Kalman Filter/assets/2b.png",
     "kalman filter/assets/Unconfirmed 766297.crdownload",
-    "kalman filter/assets/2a.png",
+    "Kalman Filter/assets/2a.png",
     "kalman filter/assets/Unconfirmed 6415.crdownload",
-    "kalman filter/assets/1c.png",
+    "Kalman Filter/assets/1c.png",
     "kalman filter/assets/Unconfirmed 121908.crdownload",
-    "kalman filter/assets/1b.png",
+    "Kalman Filter/assets/1b.png",
     "kalman filter/assets/Unconfirmed 940478.crdownload",
-    "kalman filter/assets/1a.png",
+    "Kalman Filter/assets/1a.png",
     "kalman filter/assets/Unconfirmed 860744.crdownload",
-    "kalman filter/assets",
-    "kalman filter",
-    "assets/figures/motiondistortion.png",
-    "assets/figures/motiondistortion.png.crdownload",
+    "Kalman Filter/assets",
     "assets/figures/propagation.png",
-    "Fast.md",
-    "index.md",
-    "assets/figures/fig1.png",
-    "assets/figures/fig3.png",
-    "assets/figures/fig2.png"
+    "Fast.md"
   ]
 }

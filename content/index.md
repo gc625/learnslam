@@ -6,4 +6,6 @@ The goal of this website is to allow a reader with minimal math and cs backgroun
 Most notes and explanations will be translated and based on the repo [FAST_LIVO2_Noted](https://github.com/cchester25/FAST_LIVO2_Noted) by Pan Feng. Many thanks for his herculean effort in annotating the paper, code, and hardware setup.
 
 Begin here:
-[Fast LIVO2 Paper Explained](fast_livo_2)
+FAST LIVO2:
+- [Paper Notes](<Paper Notes.md>)
+
