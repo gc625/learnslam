@@ -278,7 +278,7 @@ $$
 - and $w_{k-1}\sim\mathcal{N}(0,Q).$
 
 **Note:** 
-You always start with your true (possibly nonlinear) update, then group all deterministic terms into $A x+B u$ and bundle every approximation or uncertainty into the additive “noise” term $Ww$.
+You always start with your true (possibly nonlinear) update, then group all deterministic terms into $Ax+Bu$ and bundle every approximation or uncertainty into the additive “noise” term $Ww$.
 ### Observation Equation
 $$
 z_k = H\,x_k + v_k

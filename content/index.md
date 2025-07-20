@@ -7,5 +7,5 @@ Most notes and explanations will be translated and based on the repo [FAST_LIVO2
 
 Begin here:
 FAST LIVO2:
-- [Paper Notes](<Paper Notes.md>)
+- [0. Paper Notes](<0. Paper Notes.md>)
 

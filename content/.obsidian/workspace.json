@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FAST-LIVO2/paper notes/Paper Notes.md",
+                "file": "Kalman Filter/Data Fusion and Kalman Filter.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Paper Notes"
+              "title": "Data Fusion and Kalman Filter"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": " ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -170,13 +171,13 @@
   },
   "active": "beeabb44cd62c75f",
   "lastOpenFiles": [
+    "FAST-LIVO2/paper notes/0. Paper Notes.md",
     "FAST-LIVO2/paper notes/assets/paper_notes_cn.pdf",
     "FAST-LIVO2/paper notes/Abstract.md",
     "FAST-LIVO2/paper notes/Introduction.md",
     "FAST-LIVO2/paper notes/assets/fig1.png",
     "Kalman Filter/Data Fusion and Kalman Filter.md",
     "FAST-LIVO2/paper notes/Related Works.md",
-    "FAST-LIVO2/paper notes/Paper Notes.md",
     "index.md",
     "paper notes.md",
     "Data.md",
