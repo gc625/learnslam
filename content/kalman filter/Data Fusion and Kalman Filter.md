@@ -3,7 +3,8 @@
 when given different measurement devices, how can we obtain the diameter of a coin?
 
 ### Test 1: Measuring tape 
-we can use the measuring tape to measure the diameter of the radius twice, measurements $z_1$ and $z_2$. Taking the average gives the estimate $$
+we can use the measuring tape to measure the diameter of the radius twice, measurements $z_1$ and $z_2$. Taking the average gives the estimate 
+$$
 z_e=25\ \text{mm}
 $$
 ![[1a.png]]
@@ -149,7 +150,7 @@ which matches above.
 
 Q: So we have to derive $A$ ourselves every time we need to apply a kalman filter?
 
-**$B$: Control‑Input Matrix**
+### $B$:Control‑Input Matrix
 * **What it is**: A matrix that describes *how* your known inputs or controls $u$ (e.g. commanded acceleration, wheel‑encoder speeds) push the state forward.
 * **Role in the equation**: In
 $$
@@ -190,7 +191,7 @@ $$
 * **$B$** tells you “how external commands or controls nudge it.”
 
 
-### Observation Equation
+## Observation Equation
 This is just like our earlier example of measuring the coin’s diameter: it describes how we observe the system’s state. In SLAM, however, the observation is often indirect and mediated by an observation model. For instance, in visual‑inertial odometry (VIO) we want to estimate the system’s 6 DOF pose, but what the camera actually gives us are pixel coordinates of feature points, not the pose itself. Those pixel measurements are related to the 6 DOF state through the camera’s projection model. In other words, the projection model ties the _actual_ observed pixel values to the _true_ pose, and that relationship is our observation equation.
 
 In summary, although the observation equation doesn’t measure the system state directly, it _indirectly_ measures it via the observation model, so it still constitutes a measurement of the state.
@@ -232,3 +233,5 @@ v_k \sim \mathcal{N}(0,\,R_k),
 $$
 
 meaning zero‑mean Gaussian with covariance $R_k$. The size and shape of $R_k$ encode how much trust you place in that sensor—and whether different measurements are correlated.
+
+
