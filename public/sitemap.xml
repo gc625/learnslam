@@ -1,6 +1,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
     <loc>https://learnslam.info/</loc>
-    <lastmod>2025-07-18T15:43:23.000Z</lastmod>
+    <lastmod>2025-07-20T14:45:47.000Z</lastmod>
   </url><url>
     <loc>https://learnslam.info/Kalman-Filter/Data-Fusion-and-Kalman-Filter</loc>
     <lastmod>2025-07-20T14:40:57.000Z</lastmod>
@@ -11,12 +11,12 @@
     <loc>https://learnslam.info/FAST-LIVO2/paper-notes/Introduction</loc>
     <lastmod>2025-07-20T14:40:57.000Z</lastmod>
   </url><url>
+    <loc>https://learnslam.info/FAST-LIVO2/paper-notes/Paper-Notes</loc>
+    <lastmod>2025-07-20T14:45:47.000Z</lastmod>
+  </url><url>
     <loc>https://learnslam.info/FAST-LIVO2/paper-notes/Related-Works</loc>
     <lastmod>2025-07-20T14:40:57.000Z</lastmod>
   </url><url>
     <loc>https://learnslam.info/FAST-LIVO2/paper-notes/System-Overview</loc>
     <lastmod>2025-07-20T14:40:57.000Z</lastmod>
-  </url><url>
-    <loc>https://learnslam.info/FAST-LIVO2/paper-notes/Untitled</loc>
-    <lastmod>2025-07-20T14:42:32.465Z</lastmod>
   </url></urlset>

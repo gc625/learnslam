@@ -1,4 +1,4 @@
-
+translated from: https://blog.csdn.net/qq_42731705/article/details/129420739
 # Intro example
 when given different measurement devices, how can we obtain the diameter of a coin?
 

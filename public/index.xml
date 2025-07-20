@@ -6,16 +6,22 @@
       <description>Last 10 notes on Learning SLAM</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Untitled</title>
-    <link>https://learnslam.info/FAST-LIVO2/paper-notes/Untitled</link>
-    <guid>https://learnslam.info/FAST-LIVO2/paper-notes/Untitled</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Sun, 20 Jul 2025 14:42:32 GMT</pubDate>
+    <title>learnslam.info</title>
+    <link>https://learnslam.info/</link>
+    <guid>https://learnslam.info/</guid>
+    <description><![CDATA[ The goal of this website is to allow a reader with minimal math and cs background to fully* learn how state of the art SLAM systems work, primarily focusing on FAST-LIVO2. ]]></description>
+    <pubDate>Sun, 20 Jul 2025 14:45:47 GMT</pubDate>
+  </item><item>
+    <title>Paper Notes</title>
+    <link>https://learnslam.info/FAST-LIVO2/paper-notes/Paper-Notes</link>
+    <guid>https://learnslam.info/FAST-LIVO2/paper-notes/Paper-Notes</guid>
+    <description><![CDATA[ The following pages are notes on the paper: FAST-LIVO2: Fast, Direct LiDAR–Inertial–Visual Odometry, originally by Pan Feng. ]]></description>
+    <pubDate>Sun, 20 Jul 2025 14:45:47 GMT</pubDate>
   </item><item>
     <title>Data Fusion and Kalman Filter</title>
     <link>https://learnslam.info/Kalman-Filter/Data-Fusion-and-Kalman-Filter</link>
     <guid>https://learnslam.info/Kalman-Filter/Data-Fusion-and-Kalman-Filter</guid>
-    <description><![CDATA[ Intro example when given different measurement devices, how can we obtain the diameter of a coin? Test 1: Measuring tape we can use the measuring tape to measure the diameter of the radius twice, measurements z_1 and z_2. ]]></description>
+    <description><![CDATA[  ]]></description>
     <pubDate>Sun, 20 Jul 2025 14:40:57 GMT</pubDate>
   </item><item>
     <title>Abstract</title>
@@ -41,12 +47,6 @@
     <guid>https://learnslam.info/FAST-LIVO2/paper-notes/System-Overview</guid>
     <description><![CDATA[ This section primarily describes the processing flow of the entire system. ]]></description>
     <pubDate>Sun, 20 Jul 2025 14:40:57 GMT</pubDate>
-  </item><item>
-    <title>learnslam.info</title>
-    <link>https://learnslam.info/</link>
-    <guid>https://learnslam.info/</guid>
-    <description><![CDATA[ The goal of this website is to allow a reader with minimal math and cs background to fully* learn how state of the art SLAM systems work, primarily focusing on FAST-LIVO2. ]]></description>
-    <pubDate>Fri, 18 Jul 2025 15:43:23 GMT</pubDate>
   </item>
     </channel>
   </rss>
