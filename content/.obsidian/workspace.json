@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kalman Filter/Data Fusion and Kalman Filter.md",
+                "file": "FAST-LIVO2/paper notes/Paper Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Data Fusion and Kalman Filter"
+              "title": "Paper Notes"
             }
           }
         ]
@@ -170,13 +170,14 @@
   },
   "active": "beeabb44cd62c75f",
   "lastOpenFiles": [
+    "FAST-LIVO2/paper notes/assets/paper_notes_cn.pdf",
+    "FAST-LIVO2/paper notes/Abstract.md",
+    "FAST-LIVO2/paper notes/Introduction.md",
+    "FAST-LIVO2/paper notes/assets/fig1.png",
+    "Kalman Filter/Data Fusion and Kalman Filter.md",
     "FAST-LIVO2/paper notes/Related Works.md",
     "FAST-LIVO2/paper notes/Paper Notes.md",
-    "FAST-LIVO2/paper notes/Introduction.md",
     "index.md",
-    "assets/论文解析.pdf",
-    "Kalman Filter/Data Fusion and Kalman Filter.md",
-    "FAST-LIVO2/paper notes/Abstract.md",
     "paper notes.md",
     "Data.md",
     "fast_livo_2.md",
@@ -186,7 +187,6 @@
     "assets/figures/motiondistortion.png",
     "FAST-LIVO2/paper notes/assets/fig3.png",
     "FAST-LIVO2/paper notes/assets/fig2.png",
-    "FAST-LIVO2/paper notes/assets/fig1.png",
     "FAST-LIVO2/paper notes/assets",
     "FAST-LIVO2/paper notes",
     "FAST-LIVO2",
