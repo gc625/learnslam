@@ -10,13 +10,31 @@
     <link>https://learnslam.info/FAST-LIVO2/paper-notes/0.-Paper-Notes</link>
     <guid>https://learnslam.info/FAST-LIVO2/paper-notes/0.-Paper-Notes</guid>
     <description><![CDATA[ The following pages are notes on the paper: FAST-LIVO2: Fast, Direct LiDAR–Inertial–Visual Odometry, originally by Pan Feng. ]]></description>
-    <pubDate>Sun, 20 Jul 2025 14:52:50 GMT</pubDate>
+    <pubDate>Mon, 21 Jul 2025 09:32:00 GMT</pubDate>
   </item><item>
-    <title>Data Fusion and Kalman Filter</title>
-    <link>https://learnslam.info/Kalman-Filter/Data-Fusion-and-Kalman-Filter</link>
-    <guid>https://learnslam.info/Kalman-Filter/Data-Fusion-and-Kalman-Filter</guid>
-    <description><![CDATA[ translated from: blog.csdn.net/qq_42731705/article/details/129420739 Intro example when given different measurement devices, how can we obtain the diameter of a coin? Test 1: Measuring tape we can use the measuring tape to measure the diameter of the radius twice, measurements z_1 and z_2. ]]></description>
-    <pubDate>Sun, 20 Jul 2025 14:52:50 GMT</pubDate>
+    <title>1. Abstract</title>
+    <link>https://learnslam.info/FAST-LIVO2/paper-notes/1.-Abstract</link>
+    <guid>https://learnslam.info/FAST-LIVO2/paper-notes/1.-Abstract</guid>
+    <description><![CDATA[ The author condensed the abstract into the following 4 aspects: Q1: What is Fast-LIVO2? FAST-LIVO2 is a real-time, accurate, and robust tightly coupled multi-sensor SLAM system. ]]></description>
+    <pubDate>Mon, 21 Jul 2025 09:32:00 GMT</pubDate>
+  </item><item>
+    <title>2. Introduction</title>
+    <link>https://learnslam.info/FAST-LIVO2/paper-notes/2.-Introduction</link>
+    <guid>https://learnslam.info/FAST-LIVO2/paper-notes/2.-Introduction</guid>
+    <description><![CDATA[ Introduction The introduction can be distilled into four sections: 1. ]]></description>
+    <pubDate>Mon, 21 Jul 2025 09:32:00 GMT</pubDate>
+  </item><item>
+    <title>3. Related Works</title>
+    <link>https://learnslam.info/FAST-LIVO2/paper-notes/3.-Related-Works</link>
+    <guid>https://learnslam.info/FAST-LIVO2/paper-notes/3.-Related-Works</guid>
+    <description><![CDATA[ The related work can be summarized into three parts: 1. Overview of Direct Methods in SLAM 2. Introduction to LIVO 3. ]]></description>
+    <pubDate>Mon, 21 Jul 2025 09:32:00 GMT</pubDate>
+  </item><item>
+    <title>4. System Overview</title>
+    <link>https://learnslam.info/FAST-LIVO2/paper-notes/4.-System-Overview</link>
+    <guid>https://learnslam.info/FAST-LIVO2/paper-notes/4.-System-Overview</guid>
+    <description><![CDATA[ This section primarily describes the processing flow of the entire system. ]]></description>
+    <pubDate>Mon, 21 Jul 2025 09:32:00 GMT</pubDate>
   </item><item>
     <title>learnslam.info</title>
     <link>https://learnslam.info/</link>
@@ -24,29 +42,11 @@
     <description><![CDATA[ The goal of this website is to allow a reader with minimal math and cs background to fully* learn how state of the art SLAM systems work, primarily focusing on FAST-LIVO2. ]]></description>
     <pubDate>Sun, 20 Jul 2025 14:52:50 GMT</pubDate>
   </item><item>
-    <title>Abstract</title>
-    <link>https://learnslam.info/FAST-LIVO2/paper-notes/Abstract</link>
-    <guid>https://learnslam.info/FAST-LIVO2/paper-notes/Abstract</guid>
-    <description><![CDATA[ The author condensed the abstract into the following 4 aspects: Q1: What is Fast-LIVO2? FAST-LIVO2 is a real-time, accurate, and robust tightly coupled multi-sensor SLAM system. ]]></description>
-    <pubDate>Sun, 20 Jul 2025 14:40:57 GMT</pubDate>
-  </item><item>
-    <title>Introduction</title>
-    <link>https://learnslam.info/FAST-LIVO2/paper-notes/Introduction</link>
-    <guid>https://learnslam.info/FAST-LIVO2/paper-notes/Introduction</guid>
-    <description><![CDATA[ Introduction The introduction can be distilled into four sections: 1. ]]></description>
-    <pubDate>Sun, 20 Jul 2025 14:40:57 GMT</pubDate>
-  </item><item>
-    <title>Related Works</title>
-    <link>https://learnslam.info/FAST-LIVO2/paper-notes/Related-Works</link>
-    <guid>https://learnslam.info/FAST-LIVO2/paper-notes/Related-Works</guid>
-    <description><![CDATA[ The related work can be summarized into three parts: 1. Overview of Direct Methods in SLAM 2. Introduction to LIVO 3. ]]></description>
-    <pubDate>Sun, 20 Jul 2025 14:40:57 GMT</pubDate>
-  </item><item>
-    <title>System Overview</title>
-    <link>https://learnslam.info/FAST-LIVO2/paper-notes/System-Overview</link>
-    <guid>https://learnslam.info/FAST-LIVO2/paper-notes/System-Overview</guid>
-    <description><![CDATA[ This section primarily describes the processing flow of the entire system. ]]></description>
-    <pubDate>Sun, 20 Jul 2025 14:40:57 GMT</pubDate>
+    <title>Data Fusion and Kalman Filter</title>
+    <link>https://learnslam.info/Kalman-Filter/Data-Fusion-and-Kalman-Filter</link>
+    <guid>https://learnslam.info/Kalman-Filter/Data-Fusion-and-Kalman-Filter</guid>
+    <description><![CDATA[ translated from: blog.csdn.net/qq_42731705/article/details/129420739 Intro example when given different measurement devices, how can we obtain the diameter of a coin? Test 1: Measuring tape we can use the measuring tape to measure the diameter of the radius twice, measurements z_1 and z_2. ]]></description>
+    <pubDate>Sun, 20 Jul 2025 14:52:50 GMT</pubDate>
   </item>
     </channel>
   </rss>
