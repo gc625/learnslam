@@ -17,6 +17,10 @@ export const sharedPageComponents: SharedLayout = {
       category: 'Announcements',
       // from data-category-id
       categoryId: 'DIC_kwDOPOy_kM4CtOZ0',
+      // Map by pathname so discussions work across custom domains
+      mapping: 'pathname',
+      // Disable strict matching to allow fuzzy lookup
+      strict: false,
       // from data-lang
       lang: 'en'
     }
