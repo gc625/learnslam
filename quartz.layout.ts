@@ -10,7 +10,7 @@ export const sharedPageComponents: SharedLayout = {
     provider: 'giscus',
     options: {
       // from data-repo
-      repo: 'jgc625/learnslam',
+      repo: 'gc625/learnslam',
       // from data-repo-id
       repoId: 'R_kgDOPOy_kA',
       // from data-category
